@@ -829,6 +829,24 @@ main {
   line-height: 1.6;
 }
 
+ul.timeline-text {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.timeline-text li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 4px;
+}
+
+ul.timeline-text li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: var(--orange-yellow-crayola);
+}
 
 /**
  * skills 
